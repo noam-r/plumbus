@@ -25,7 +25,7 @@ The goal is to make security **explicit, analyzable, and auditable**.
 
 ------------------------------------------------------------------------
 
-## Conceptual Model
+# Conceptual Model
 
 Security in Plumbus follows a **deny-by-default model**.
 
@@ -44,7 +44,7 @@ If no access rule is defined, the capability should be considered
 
 ------------------------------------------------------------------------
 
-## Access Declaration
+# Access Declaration
 
 Capabilities define access rules using the `access` property.
 
@@ -71,7 +71,7 @@ executing the capability handler.
 
 ------------------------------------------------------------------------
 
-## Access Contract Fields
+# Access Contract Fields
 
 An access declaration may include:
 
@@ -147,7 +147,7 @@ This enables internal automation while restricting external access.
 
 ------------------------------------------------------------------------
 
-## Authorization Lifecycle
+# Authorization Lifecycle
 
 Authorization evaluation occurs before capability execution.
 
@@ -163,7 +163,7 @@ If authorization fails, the handler must not run.
 
 ------------------------------------------------------------------------
 
-## Contextual Authorization
+# Contextual Authorization
 
 Capabilities may enforce additional contextual checks inside the
 handler.
@@ -180,7 +180,7 @@ Contextual checks should complement, not replace, access declarations.
 
 ------------------------------------------------------------------------
 
-## Tenant Isolation
+# Tenant Isolation
 
 Multi-tenant systems require strict tenant isolation.
 
@@ -205,7 +205,7 @@ intended.
 
 ------------------------------------------------------------------------
 
-## Field-Level Restrictions
+# Field-Level Restrictions
 
 Sensitive entity fields may require additional protection.
 
@@ -229,7 +229,7 @@ The Security SDK should respect these flags when:
 
 ------------------------------------------------------------------------
 
-## Security Helpers
+# Security Helpers
 
 The runtime context may expose helper utilities.
 
@@ -245,7 +245,7 @@ These helpers simplify common authorization patterns.
 
 ------------------------------------------------------------------------
 
-## Authorization Errors
+# Authorization Errors
 
 Unauthorized access should produce standardized errors.
 
@@ -259,7 +259,7 @@ Standardized errors ensure consistent API responses.
 
 ------------------------------------------------------------------------
 
-## Security Metadata
+# Security Metadata
 
 Capability access declarations contribute to system metadata.
 
@@ -278,7 +278,7 @@ This metadata supports:
 
 ------------------------------------------------------------------------
 
-## Governance Integration
+# Governance Integration
 
 The governance system may detect security risks such as:
 
@@ -294,7 +294,7 @@ Teams may acknowledge exceptions through advisory governance.
 
 ------------------------------------------------------------------------
 
-## Audit Integration
+# Audit Integration
 
 Security decisions should generate audit records.
 
@@ -308,7 +308,7 @@ Audit records allow organizations to trace system access patterns.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Security Design
+# AI-Friendly Security Design
 
 Security rules should remain easy for AI agents to interpret.
 
@@ -322,7 +322,7 @@ Clear security declarations help prevent accidental vulnerabilities.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -336,7 +336,7 @@ Security should remain **visible at the capability boundary**.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Security SDK defines how Plumbus applications enforce authorization
 policies.

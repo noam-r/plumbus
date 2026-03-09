@@ -29,7 +29,7 @@ The Entity SDK ensures that data models are:
 
 ------------------------------------------------------------------------
 
-## Conceptual Model
+# Conceptual Model
 
 An entity represents a **domain concept stored persistently**.
 
@@ -53,7 +53,7 @@ capabilities.
 
 ------------------------------------------------------------------------
 
-## Entity File Structure
+# Entity File Structure
 
 Entities should be defined in dedicated files.
 
@@ -72,7 +72,7 @@ Keeping entities separate improves:
 
 ------------------------------------------------------------------------
 
-## defineEntity()
+# defineEntity()
 
 Entities are declared using:
 
@@ -107,7 +107,7 @@ This declaration drives:
 
 ------------------------------------------------------------------------
 
-## Entity Contract Fields
+# Entity Contract Fields
 
 ## Identity
 
@@ -142,7 +142,7 @@ Fields must include type definitions.
 
 ------------------------------------------------------------------------
 
-## Field Types
+# Field Types
 
 The Entity SDK should support a minimal, explicit set of field types.
 
@@ -161,7 +161,7 @@ This keeps the data model predictable.
 
 ------------------------------------------------------------------------
 
-## Field Classification
+# Field Classification
 
 Fields may include **classification metadata** for governance and
 privacy analysis.
@@ -192,7 +192,7 @@ Classification metadata supports:
 
 ------------------------------------------------------------------------
 
-## Default Field Options
+# Default Field Options
 
 Fields may support common options:
 
@@ -218,7 +218,7 @@ These options enable privacy-aware storage.
 
 ------------------------------------------------------------------------
 
-## Relationships
+# Relationships
 
 Entities may define relationships with other entities.
 
@@ -243,7 +243,7 @@ checks.
 
 ------------------------------------------------------------------------
 
-## Indexes
+# Indexes
 
 Entities may declare indexes.
 
@@ -261,7 +261,7 @@ constraints.
 
 ------------------------------------------------------------------------
 
-## Retention Policies
+# Retention Policies
 
 Entities may include data retention hints.
 
@@ -278,7 +278,7 @@ policies like GDPR.
 
 ------------------------------------------------------------------------
 
-## Repository Generation
+# Repository Generation
 
 From entity definitions, Plumbus generates repositories.
 
@@ -307,7 +307,7 @@ Repositories enforce:
 
 ------------------------------------------------------------------------
 
-## Migration Generation
+# Migration Generation
 
 Entity definitions drive database schema migrations.
 
@@ -325,7 +325,7 @@ and produces migration scripts.
 
 ------------------------------------------------------------------------
 
-## Database Infrastructure
+# Database Infrastructure
 
 Recommended v0.1 database:
 
@@ -344,7 +344,7 @@ ORM layer may use:
 
 ------------------------------------------------------------------------
 
-## Governance Integration
+# Governance Integration
 
 Entity definitions are a major input to governance analysis.
 
@@ -359,7 +359,7 @@ These signals feed policy compatibility reports.
 
 ------------------------------------------------------------------------
 
-## Audit Integration
+# Audit Integration
 
 Entity operations should generate audit signals automatically.
 
@@ -379,7 +379,7 @@ Sensitive fields should be masked according to classification metadata.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Entity Design
+# AI-Friendly Entity Design
 
 Entities must remain easy for AI agents to understand.
 
@@ -394,7 +394,7 @@ Predictable entity structures improve automated reasoning.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -409,7 +409,7 @@ structures.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Entity SDK defines how persistent domain data is modeled in Plumbus.
 

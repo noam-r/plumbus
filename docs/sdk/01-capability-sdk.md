@@ -27,7 +27,7 @@ framework implementers and application developers.
 
 ------------------------------------------------------------------------
 
-## Design Goals
+# Design Goals
 
 The Capability SDK is designed to achieve the following:
 
@@ -41,7 +41,7 @@ The Capability SDK is designed to achieve the following:
 
 ------------------------------------------------------------------------
 
-## Conceptual Model
+# Conceptual Model
 
 A capability is a **single unit of business intent**.
 
@@ -71,7 +71,7 @@ Multi-step orchestration belongs in flows.
 
 ------------------------------------------------------------------------
 
-## Capability Kinds
+# Capability Kinds
 
 Plumbus should support at least the following capability kinds.
 
@@ -147,7 +147,7 @@ hidden in framework magic.
 
 ------------------------------------------------------------------------
 
-## File Structure
+# File Structure
 
 Each capability should live in its own directory.
 
@@ -175,7 +175,7 @@ Rules:
 
 ------------------------------------------------------------------------
 
-## defineCapability()
+# defineCapability()
 
 The Capability SDK centers around a single primitive:
 
@@ -238,7 +238,7 @@ model.
 
 ------------------------------------------------------------------------
 
-## Capability Contract Shape
+# Capability Contract Shape
 
 A capability contract should define the following sections.
 
@@ -440,7 +440,7 @@ This metadata helps CLI and CI workflows enforce capability quality.
 
 ------------------------------------------------------------------------
 
-## Handler Contract
+# Handler Contract
 
 The handler contains the implementation logic.
 
@@ -467,7 +467,7 @@ The framework is responsible for:
 
 ------------------------------------------------------------------------
 
-## Runtime Context in Handlers
+# Runtime Context in Handlers
 
 Capabilities should access system services through `ctx`.
 
@@ -493,7 +493,7 @@ Capabilities should not use random global services for core behavior.
 
 ------------------------------------------------------------------------
 
-## Data Access Rules
+# Data Access Rules
 
 Capabilities should use:
 
@@ -515,7 +515,7 @@ declarations where appropriate.
 
 ------------------------------------------------------------------------
 
-## Event Emission
+# Event Emission
 
 Capabilities emit events through:
 
@@ -532,7 +532,7 @@ Capabilities should not publish directly to brokers.
 
 ------------------------------------------------------------------------
 
-## Flow Interaction
+# Flow Interaction
 
 Capabilities may trigger flows through:
 
@@ -545,7 +545,7 @@ orchestration becomes substantial, the logic should move into a flow.
 
 ------------------------------------------------------------------------
 
-## AI Usage in Capabilities
+# AI Usage in Capabilities
 
 Capabilities may invoke the AI runtime through `ctx.ai`.
 
@@ -568,7 +568,7 @@ behavior.
 
 ------------------------------------------------------------------------
 
-## Error Handling
+# Error Handling
 
 Capabilities should throw structured framework errors via `ctx.errors`.
 
@@ -586,7 +586,7 @@ Capabilities should avoid throwing arbitrary opaque objects.
 
 ------------------------------------------------------------------------
 
-## Capability Lifecycle
+# Capability Lifecycle
 
 The conceptual execution lifecycle is:
 
@@ -604,7 +604,7 @@ This lifecycle should be stable across capability kinds.
 
 ------------------------------------------------------------------------
 
-## Manifest Generation
+# Manifest Generation
 
 From capability contracts, the framework should generate
 machine-readable manifests.
@@ -631,7 +631,7 @@ These manifests power:
 
 ------------------------------------------------------------------------
 
-## Testing Expectations
+# Testing Expectations
 
 Every capability should have associated tests.
 
@@ -652,7 +652,7 @@ contract.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Design Constraints
+# AI-Friendly Design Constraints
 
 The Capability SDK must remain highly predictable.
 
@@ -669,7 +669,7 @@ These constraints reduce the risk of unsafe AI-generated changes.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -691,7 +691,7 @@ A capability should be understandable by reading:
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Capability SDK defines the most important programming primitive in
 Plumbus.

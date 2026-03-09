@@ -4,13 +4,13 @@ theme:
 
 nav:
   - Home: index.md
-  - Design:
+  - Architecture:
       - Index: architecture/00-design-index.md
       - Design Principles: architecture/01-design-principles.md
       - System Architecture: architecture/02-system-architecture.md
-      - Capability System Design: architecture/03-capability-system-design.md
-      - Flow Engine: architecture/04-flow-engine-design.md
-      - Event System: architecture/05-event-system-design.md
+      - Capability System Design: architecture/03-capability-system.md
+      - Flow Engine: architecture/04-flow-engine.md
+      - Event System: architecture/05-event-system.md
       - Data Management: architecture/06-entity-data-model.md
       - Security Model: architecture/07-security-model.md
       - Authentication Model: architecture/08-authentication-model.md

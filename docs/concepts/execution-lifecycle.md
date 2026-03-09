@@ -29,7 +29,7 @@ Understanding the lifecycle is critical for:
 
 ------------------------------------------------------------------------
 
-## Core Runtime Components
+# Core Runtime Components
 
 The Plumbus runtime typically consists of the following components:
 
@@ -56,7 +56,7 @@ Analyzes system behavior and generates advisory signals.
 
 ------------------------------------------------------------------------
 
-## Request Lifecycle
+# Request Lifecycle
 
 When a client invokes a capability through the API:
 
@@ -189,7 +189,7 @@ The validated result is returned to the client.
 
 ------------------------------------------------------------------------
 
-## Event Lifecycle
+# Event Lifecycle
 
 Events are emitted through:
 
@@ -236,7 +236,7 @@ Event emission produces audit metadata.
 
 ------------------------------------------------------------------------
 
-## Flow Lifecycle
+# Flow Lifecycle
 
 Flows may be triggered by:
 
@@ -304,7 +304,7 @@ The flow is marked:
 
 ------------------------------------------------------------------------
 
-## AI Runtime Lifecycle
+# AI Runtime Lifecycle
 
 When a capability invokes AI:
 
@@ -366,7 +366,7 @@ AI operations produce audit records.
 
 ------------------------------------------------------------------------
 
-## Audit Lifecycle
+# Audit Lifecycle
 
 Audit records are created when:
 
@@ -388,7 +388,7 @@ Sensitive fields may be masked.
 
 ------------------------------------------------------------------------
 
-## Governance Lifecycle
+# Governance Lifecycle
 
 Governance signals may be generated when:
 
@@ -404,7 +404,7 @@ These signals appear in verification reports:
 
 ------------------------------------------------------------------------
 
-## Failure Handling
+# Failure Handling
 
 Failures may occur during:
 
@@ -422,7 +422,7 @@ Handling strategies include:
 
 ------------------------------------------------------------------------
 
-## Observability
+# Observability
 
 The runtime should produce telemetry such as:
 
@@ -436,7 +436,7 @@ These metrics support monitoring and debugging.
 
 ------------------------------------------------------------------------
 
-## Correlation IDs
+# Correlation IDs
 
 Every execution path should include a correlation ID.
 
@@ -452,7 +452,7 @@ Correlation improves traceability.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Plumbus execution lifecycle defines how requests, capabilities,
 events, flows, AI operations, and governance analysis interact during

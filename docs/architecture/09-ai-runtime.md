@@ -33,7 +33,7 @@ Capabilities interact with AI **only through this runtime**.
 
 ------------------------------------------------------------------------
 
-## Core Principles
+# Core Principles
 
 ## 1. AI as a Managed System Service
 
@@ -88,7 +88,7 @@ This ensures that AI responses integrate safely with application logic.
 
 ------------------------------------------------------------------------
 
-## AI Provider Abstraction
+# AI Provider Abstraction
 
 The AI runtime should support multiple providers.
 
@@ -105,7 +105,7 @@ Capabilities should remain **provider-independent**.
 
 ------------------------------------------------------------------------
 
-## AI Operations
+# AI Operations
 
 The runtime should expose several core operations.
 
@@ -159,7 +159,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-## Prompt Management
+# Prompt Management
 
 Prompts should be versioned and stored separately from capability code.
 
@@ -180,7 +180,7 @@ This structure enables:
 
 ------------------------------------------------------------------------
 
-## Output Validation
+# Output Validation
 
 The runtime should validate AI outputs when schemas are defined.
 
@@ -198,7 +198,7 @@ When validation fails, the runtime may:
 
 ------------------------------------------------------------------------
 
-## Cost Tracking
+# Cost Tracking
 
 AI requests should record usage metadata.
 
@@ -214,7 +214,7 @@ This data supports operational monitoring and budgeting.
 
 ------------------------------------------------------------------------
 
-## Budget Enforcement
+# Budget Enforcement
 
 Applications may define usage limits.
 
@@ -228,7 +228,7 @@ The runtime should enforce these limits where possible.
 
 ------------------------------------------------------------------------
 
-## AI Security Boundaries
+# AI Security Boundaries
 
 AI prompts may contain sensitive data.
 
@@ -243,7 +243,7 @@ Developers may override warnings through the advisory governance system.
 
 ------------------------------------------------------------------------
 
-## RAG Integration
+# RAG Integration
 
 The AI runtime integrates with the RAG subsystem.
 
@@ -264,7 +264,7 @@ RAG retrieval should respect:
 
 ------------------------------------------------------------------------
 
-## Tool Usage
+# Tool Usage
 
 AI models may call tools during reasoning.
 
@@ -279,7 +279,7 @@ Tool execution should remain controlled by the framework.
 
 ------------------------------------------------------------------------
 
-## Explainability
+# Explainability
 
 AI interactions should produce explanation metadata.
 
@@ -295,7 +295,7 @@ workflows.
 
 ------------------------------------------------------------------------
 
-## Audit Integration
+# Audit Integration
 
 AI requests should generate audit records.
 
@@ -312,7 +312,7 @@ Sensitive prompt content may be masked.
 
 ------------------------------------------------------------------------
 
-## Governance Integration
+# Governance Integration
 
 The governance system may analyze AI usage patterns.
 
@@ -326,7 +326,7 @@ These warnings appear in policy compatibility reports.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Development
+# AI-Friendly Development
 
 The runtime is designed to support AI-assisted coding.
 
@@ -341,7 +341,7 @@ This structure makes AI features safer to modify.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -355,7 +355,7 @@ AI functionality should remain **predictable and auditable**.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The AI runtime provides a structured and secure way to integrate AI into
 Plumbus applications.

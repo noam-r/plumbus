@@ -26,7 +26,7 @@ invoking AI models.
 
 ------------------------------------------------------------------------
 
-## Core Design Principles
+# Core Design Principles
 
 ## Knowledge Must Be Explicit
 
@@ -67,7 +67,7 @@ This supports debugging and compliance analysis.
 
 ------------------------------------------------------------------------
 
-## RAG Architecture
+# RAG Architecture
 
 The RAG pipeline consists of several stages.
 
@@ -83,7 +83,7 @@ Each stage should be observable and auditable.
 
 ------------------------------------------------------------------------
 
-## Document Ingestion
+# Document Ingestion
 
 Documents must be explicitly ingested into the knowledge system.
 
@@ -103,7 +103,7 @@ Documents may be ingested via:
 
 ------------------------------------------------------------------------
 
-## Document Metadata
+# Document Metadata
 
 Each document should include metadata fields.
 
@@ -120,7 +120,7 @@ Metadata supports filtering and governance analysis.
 
 ------------------------------------------------------------------------
 
-## Document Classification
+# Document Classification
 
 Documents may include classification labels.
 
@@ -136,7 +136,7 @@ authorized actors.
 
 ------------------------------------------------------------------------
 
-## Chunking
+# Chunking
 
 Documents must be divided into smaller chunks suitable for embedding.
 
@@ -152,7 +152,7 @@ Chunk metadata should include:
 
 ------------------------------------------------------------------------
 
-## Embedding Generation
+# Embedding Generation
 
 Each chunk must be converted into an embedding vector.
 
@@ -168,7 +168,7 @@ Embedding metadata should include:
 
 ------------------------------------------------------------------------
 
-## Vector Storage
+# Vector Storage
 
 Embeddings are stored in a vector database.
 
@@ -185,7 +185,7 @@ Advantages:
 
 ------------------------------------------------------------------------
 
-## Retrieval Queries
+# Retrieval Queries
 
 Capabilities may request knowledge retrieval through the AI runtime.
 
@@ -200,7 +200,7 @@ similarity search.
 
 ------------------------------------------------------------------------
 
-## Retrieval Filtering
+# Retrieval Filtering
 
 Retrieval results must pass several filters.
 
@@ -215,7 +215,7 @@ These filters prevent accidental knowledge leaks.
 
 ------------------------------------------------------------------------
 
-## Context Assembly
+# Context Assembly
 
 Retrieved chunks are assembled into the AI prompt context.
 
@@ -231,7 +231,7 @@ relevant context.
 
 ------------------------------------------------------------------------
 
-## Provenance Tracking
+# Provenance Tracking
 
 The system should record which documents were used during AI generation.
 
@@ -245,7 +245,7 @@ This information enables explainability.
 
 ------------------------------------------------------------------------
 
-## Explainability
+# Explainability
 
 AI responses should be traceable to the knowledge used.
 
@@ -259,7 +259,7 @@ This allows developers to understand why an AI answer was produced.
 
 ------------------------------------------------------------------------
 
-## Multi-Tenant Knowledge Isolation
+# Multi-Tenant Knowledge Isolation
 
 Tenant-specific knowledge must remain isolated.
 
@@ -271,7 +271,7 @@ Rules:
 
 ------------------------------------------------------------------------
 
-## Governance Integration
+# Governance Integration
 
 The governance subsystem may analyze the RAG system.
 
@@ -285,7 +285,7 @@ These issues may appear in policy compatibility reports.
 
 ------------------------------------------------------------------------
 
-## Audit Integration
+# Audit Integration
 
 The system should record:
 
@@ -304,7 +304,7 @@ Sensitive content may be masked.
 
 ------------------------------------------------------------------------
 
-## Operational Monitoring
+# Operational Monitoring
 
 The RAG system should expose operational metrics.
 
@@ -319,7 +319,7 @@ These metrics help maintain system performance.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Design
+# AI-Friendly Design
 
 To support coding agents, the RAG subsystem should maintain predictable
 structures.
@@ -336,7 +336,7 @@ behavior.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -351,7 +351,7 @@ volume**.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Plumbus RAG system provides a secure and explainable mechanism for
 AI models to access contextual knowledge.

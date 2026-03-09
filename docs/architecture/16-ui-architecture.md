@@ -28,7 +28,7 @@ The UI architecture should remain:
 
 ------------------------------------------------------------------------
 
-## Core UI Principles
+# Core UI Principles
 
 ## 1. API-First User Interfaces
 
@@ -109,7 +109,7 @@ the backend architecture.
 
 ------------------------------------------------------------------------
 
-## Recommended Frontend Stack
+# Recommended Frontend Stack
 
 For v0.1, the recommended frontend stack is:
 
@@ -130,7 +130,7 @@ replace them.
 
 ------------------------------------------------------------------------
 
-## UI Layer Responsibilities
+# UI Layer Responsibilities
 
 The UI layer is responsible for:
 
@@ -152,7 +152,7 @@ The UI is not responsible for:
 
 ------------------------------------------------------------------------
 
-## Routing Model
+# Routing Model
 
 The UI should use the routing conventions of the selected frontend
 substrate.
@@ -172,7 +172,7 @@ The backend owns API endpoints. The frontend owns presentation routes.
 
 ------------------------------------------------------------------------
 
-## Generated API Clients
+# Generated API Clients
 
 Plumbus should generate frontend-accessible clients from capability and
 flow definitions.
@@ -193,7 +193,7 @@ This also reduces the need for AI agents to invent request formats.
 
 ------------------------------------------------------------------------
 
-## UI Data Fetching
+# UI Data Fetching
 
 The UI should fetch application data through generated capability
 clients.
@@ -212,7 +212,7 @@ endpoint logic**
 
 ------------------------------------------------------------------------
 
-## Forms and Input Handling
+# Forms and Input Handling
 
 The UI should support structured form generation and form binding based
 on capability input schemas.
@@ -235,7 +235,7 @@ it rather than replace it.
 
 ------------------------------------------------------------------------
 
-## Authentication Integration
+# Authentication Integration
 
 The UI should integrate with the authentication subsystem to manage:
 
@@ -256,7 +256,7 @@ authorization remains ultimately enforced by backend capabilities.
 
 ------------------------------------------------------------------------
 
-## Error Handling
+# Error Handling
 
 The UI should handle errors in a structured way.
 
@@ -274,7 +274,7 @@ behavior remains consistent.
 
 ------------------------------------------------------------------------
 
-## Flow-Aware Interfaces
+# Flow-Aware Interfaces
 
 Because flows are first-class in Plumbus, the UI should support
 flow-aware interactions.
@@ -296,7 +296,7 @@ This is especially important for:
 
 ------------------------------------------------------------------------
 
-## AI-Enabled User Interfaces
+# AI-Enabled User Interfaces
 
 The UI may invoke AI-enabled capabilities, but should do so through the
 backend.
@@ -321,7 +321,7 @@ Benefits:
 
 ------------------------------------------------------------------------
 
-## UI and Governance
+# UI and Governance
 
 The UI may surface governance-relevant information, such as:
 
@@ -335,7 +335,7 @@ However, governance logic itself remains a backend and tooling concern.
 
 ------------------------------------------------------------------------
 
-## Component Structure
+# Component Structure
 
 The frontend codebase should remain predictable and feature-oriented.
 
@@ -357,7 +357,7 @@ Components should be:
 
 ------------------------------------------------------------------------
 
-## State Management
+# State Management
 
 Local UI state should remain local where possible.
 
@@ -377,7 +377,7 @@ The framework should discourage large, opaque global state systems.
 
 ------------------------------------------------------------------------
 
-## Testing the UI Layer
+# Testing the UI Layer
 
 The UI subsystem should support:
 
@@ -400,7 +400,7 @@ UI tests should validate:
 
 ------------------------------------------------------------------------
 
-## Accessibility
+# Accessibility
 
 The UI architecture should encourage accessible interfaces.
 
@@ -417,7 +417,7 @@ not an optional add-on.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly UI Structure
+# AI-Friendly UI Structure
 
 To support coding agents, the frontend structure should remain easy to
 navigate.
@@ -434,7 +434,7 @@ This reduces the risk of frontend drift and unsafe AI-generated changes.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -449,7 +449,7 @@ The UI should be a clear, testable consumer of the backend architecture.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Plumbus UI architecture provides a predictable frontend model built
 on top of modern web tools.

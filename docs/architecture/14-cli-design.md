@@ -22,7 +22,7 @@ framework using **consistent, structured workflows**.
 
 ------------------------------------------------------------------------
 
-## CLI Design Principles
+# CLI Design Principles
 
 ## Consistency
 
@@ -73,7 +73,7 @@ This enables integration with:
 
 ------------------------------------------------------------------------
 
-## Core CLI Commands
+# Core CLI Commands
 
 ## Project Creation
 
@@ -142,7 +142,7 @@ Generated file:
 
 ------------------------------------------------------------------------
 
-## Verification Commands
+# Verification Commands
 
 ## Architecture Verification
 
@@ -161,7 +161,7 @@ Checks may include:
 
 ------------------------------------------------------------------------
 
-## Policy Certification
+# Policy Certification
 
 Generate policy compatibility reports.
 
@@ -173,7 +173,7 @@ The report evaluates system compliance against defined policy profiles.
 
 ------------------------------------------------------------------------
 
-## Migration Commands
+# Migration Commands
 
 Manage database schema migrations.
 
@@ -187,7 +187,7 @@ These commands ensure schema changes remain traceable and controlled.
 
 ------------------------------------------------------------------------
 
-## RAG Ingestion Commands
+# RAG Ingestion Commands
 
 Manage knowledge ingestion pipelines.
 
@@ -204,7 +204,7 @@ The CLI may perform:
 
 ------------------------------------------------------------------------
 
-## AI Agent Assistance
+# AI Agent Assistance
 
 The CLI may provide commands specifically designed for AI coding agents.
 
@@ -221,7 +221,7 @@ This command may generate structured documentation including:
 
 ------------------------------------------------------------------------
 
-## Configuration Commands
+# Configuration Commands
 
 Developers may inspect configuration using CLI commands.
 
@@ -237,7 +237,7 @@ This command displays runtime configuration such as:
 
 ------------------------------------------------------------------------
 
-## Development Utilities
+# Development Utilities
 
 Additional CLI utilities may include:
 
@@ -253,7 +253,7 @@ This command checks environment readiness.
 
 ------------------------------------------------------------------------
 
-## CLI Output Formats
+# CLI Output Formats
 
 Commands should support multiple output formats.
 
@@ -268,7 +268,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-## Error Handling
+# Error Handling
 
 CLI errors should provide clear guidance.
 
@@ -283,7 +283,7 @@ Errors should include:
 
 ------------------------------------------------------------------------
 
-## Extensibility
+# Extensibility
 
 Organizations may extend the CLI with custom commands.
 
@@ -297,7 +297,7 @@ CLI plugins allow customization without modifying core framework code.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly CLI Design
+# AI-Friendly CLI Design
 
 The CLI should remain predictable for AI agents.
 
@@ -312,7 +312,7 @@ This allows AI coding assistants to reliably invoke CLI operations.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -326,7 +326,7 @@ applications**.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Plumbus CLI provides a structured interface for developing,
 verifying, and operating Plumbus applications.

@@ -30,7 +30,7 @@ This allows teams to rapidly assess system readiness for certification.
 
 ------------------------------------------------------------------------
 
-## Core Concept
+# Core Concept
 
 Policy compatibility assessment evaluates the **current architecture and
 configuration of a Plumbus application** against a defined policy
@@ -45,7 +45,7 @@ the policy.
 
 ------------------------------------------------------------------------
 
-## Policy Profiles
+# Policy Profiles
 
 A **policy profile** represents a specific compliance framework or
 governance standard.
@@ -61,7 +61,7 @@ Each profile contains a collection of **policy rules**.
 
 ------------------------------------------------------------------------
 
-## Policy Rules
+# Policy Rules
 
 A rule represents a single requirement within a policy.
 
@@ -83,7 +83,7 @@ Examples:
 
 ------------------------------------------------------------------------
 
-## Rule Evaluation
+# Rule Evaluation
 
 Policy rules are evaluated against the system's architecture metadata.
 
@@ -99,7 +99,7 @@ Each rule produces an evaluation result.
 
 ------------------------------------------------------------------------
 
-## Evaluation Results
+# Evaluation Results
 
 Each rule may produce one of several statuses.
 
@@ -114,7 +114,7 @@ Overrides originate from the advisory governance system.
 
 ------------------------------------------------------------------------
 
-## Compatibility Scoring
+# Compatibility Scoring
 
 Policy reports may include summary scores.
 
@@ -128,7 +128,7 @@ detailed analysis.
 
 ------------------------------------------------------------------------
 
-## Policy Report Structure
+# Policy Report Structure
 
 A typical policy compatibility report may include:
 
@@ -153,7 +153,7 @@ Example conceptual output:
 
 ------------------------------------------------------------------------
 
-## Integration with Advisory Governance
+# Integration with Advisory Governance
 
 Policy compatibility relies heavily on governance metadata.
 
@@ -167,7 +167,7 @@ This ensures auditors can see:
 
 ------------------------------------------------------------------------
 
-## Policy Rule Categories
+# Policy Rule Categories
 
 Rules may fall into several categories.
 
@@ -211,7 +211,7 @@ Examples:
 
 ------------------------------------------------------------------------
 
-## Extensible Policy Engine
+# Extensible Policy Engine
 
 Organizations may define custom policies.
 
@@ -224,7 +224,7 @@ compliance frameworks.
 
 ------------------------------------------------------------------------
 
-## CI/CD Integration
+# CI/CD Integration
 
 Policy checks may run automatically in CI pipelines.
 
@@ -239,7 +239,7 @@ Teams may configure thresholds based on severity.
 
 ------------------------------------------------------------------------
 
-## Developer Feedback
+# Developer Feedback
 
 Policy compatibility reports should be understandable by developers.
 
@@ -253,7 +253,7 @@ This turns compliance analysis into a useful development feedback tool.
 
 ------------------------------------------------------------------------
 
-## Explainability
+# Explainability
 
 Reports should explain why a rule failed.
 
@@ -268,7 +268,7 @@ Clear explanations help teams fix issues quickly.
 
 ------------------------------------------------------------------------
 
-## Audit Readiness
+# Audit Readiness
 
 Policy compatibility reports may be used during external audits.
 
@@ -282,7 +282,7 @@ This significantly reduces preparation time for certification audits.
 
 ------------------------------------------------------------------------
 
-## AI-Friendly Policy Analysis
+# AI-Friendly Policy Analysis
 
 Policy reports should remain structured and machine-readable.
 
@@ -294,7 +294,7 @@ This allows:
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -308,7 +308,7 @@ than only before audits.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Policy Compatibility Assessment subsystem provides a structured
 method to evaluate how well a Plumbus application aligns with regulatory

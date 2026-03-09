@@ -23,7 +23,7 @@ application afterthought.
 
 ------------------------------------------------------------------------
 
-## Core Security Principles
+# Core Security Principles
 
 ## 1. Deny by Default
 
@@ -86,7 +86,7 @@ evaluates capability policies.
 
 ------------------------------------------------------------------------
 
-## Identity Context
+# Identity Context
 
 Authenticated requests provide identity information through the
 execution context.
@@ -107,7 +107,7 @@ Capabilities should not directly parse tokens or session data.
 
 ------------------------------------------------------------------------
 
-## Authorization Evaluation
+# Authorization Evaluation
 
 Authorization evaluation occurs before capability execution.
 
@@ -123,7 +123,7 @@ If authorization fails, the capability implementation must not run.
 
 ------------------------------------------------------------------------
 
-## Role-Based Access
+# Role-Based Access
 
 The simplest authorization model is role-based access control (RBAC).
 
@@ -141,7 +141,7 @@ However, it should remain flexible enough to support:
 
 ------------------------------------------------------------------------
 
-## Scope-Based Access
+# Scope-Based Access
 
 Capabilities may optionally require scopes.
 
@@ -156,7 +156,7 @@ than roles alone.
 
 ------------------------------------------------------------------------
 
-## Conditional Authorization
+# Conditional Authorization
 
 Some capabilities may require conditional access rules.
 
@@ -170,7 +170,7 @@ Conditional policies should remain simple and explicit.
 
 ------------------------------------------------------------------------
 
-## Tenant Isolation
+# Tenant Isolation
 
 Multi-tenant systems require strict tenant isolation.
 
@@ -185,7 +185,7 @@ the framework can enforce it.
 
 ------------------------------------------------------------------------
 
-## Field-Level Restrictions
+# Field-Level Restrictions
 
 Some fields may require restricted access.
 
@@ -206,7 +206,7 @@ metadata.
 
 ------------------------------------------------------------------------
 
-## Data Access Enforcement
+# Data Access Enforcement
 
 The repository/data service layer should enforce security policies when
 accessing entities.
@@ -222,7 +222,7 @@ access.
 
 ------------------------------------------------------------------------
 
-## Flow Security
+# Flow Security
 
 Flows must propagate security context.
 
@@ -237,7 +237,7 @@ originating event when possible.
 
 ------------------------------------------------------------------------
 
-## Event Security
+# Event Security
 
 Events should preserve security context metadata.
 
@@ -252,7 +252,7 @@ correctly.
 
 ------------------------------------------------------------------------
 
-## Audit Integration
+# Audit Integration
 
 Security decisions must be auditable.
 
@@ -272,7 +272,7 @@ This allows operators to answer questions such as:
 
 ------------------------------------------------------------------------
 
-## Policy Compatibility
+# Policy Compatibility
 
 The security model integrates with governance analysis.
 
@@ -290,7 +290,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-## Advisory Governance Interaction
+# Advisory Governance Interaction
 
 Security warnings may be produced when risky patterns are detected.
 
@@ -304,7 +304,7 @@ Developers may acknowledge these risks when necessary.
 
 ------------------------------------------------------------------------
 
-## AI Safety Considerations
+# AI Safety Considerations
 
 Security logic must remain predictable for coding agents.
 
@@ -320,7 +320,7 @@ vulnerabilities.
 
 ------------------------------------------------------------------------
 
-## Best Practices
+# Best Practices
 
 Recommended practices:
 
@@ -334,7 +334,7 @@ Security should be **explicit and visible in capability contracts**.
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 The Plumbus security model ensures that authorization is enforced
 consistently and transparently.
