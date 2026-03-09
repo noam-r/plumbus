@@ -22,7 +22,7 @@ controlled development environment.
 
 ------------------------------------------------------------------------
 
-# The Core Idea
+## The Core Idea
 
 Modern LLM coding tools work best when:
 
@@ -45,7 +45,7 @@ application code.
 
 ------------------------------------------------------------------------
 
-# Why Plumbus Exists
+## Why Plumbus Exists
 
 Modern application development faces several challenges:
 
@@ -73,7 +73,7 @@ security first‑class concerns from the beginning**.
 
 ------------------------------------------------------------------------
 
-# Key Principles
+## Key Principles
 
 Plumbus is built around several core principles.
 
@@ -178,7 +178,7 @@ patterns and generate compliance signals for regulations such as:
 
 ------------------------------------------------------------------------
 
-# Built‑In AI Runtime
+## Built‑In AI Runtime
 
 Plumbus treats AI as **managed infrastructure**, not just API calls.
 
@@ -196,7 +196,7 @@ systems.
 
 ------------------------------------------------------------------------
 
-# What Developers Build in Plumbus
+## What Developers Build in Plumbus
 
 Developers primarily write:
 
@@ -258,7 +258,7 @@ Examples:
 
 ------------------------------------------------------------------------
 
-# What Plumbus Handles Automatically
+## What Plumbus Handles Automatically
 
 The framework manages:
 
@@ -278,7 +278,7 @@ infrastructure**.
 
 ------------------------------------------------------------------------
 
-# Benefits
+## Benefits
 
 Using Plumbus provides several advantages:
 
@@ -306,7 +306,7 @@ Flows, events, and queues enable reliable large‑scale systems.
 
 ------------------------------------------------------------------------
 
-# Who Plumbus Is For
+## Who Plumbus Is For
 
 Plumbus is designed for:
 
@@ -324,7 +324,7 @@ It is especially useful for systems that require:
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 Plumbus is an **AI‑first application framework** that combines:
 

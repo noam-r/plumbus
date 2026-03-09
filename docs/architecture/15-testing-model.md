@@ -29,7 +29,7 @@ The testing model provides:
 
 ------------------------------------------------------------------------
 
-# Core Testing Principles
+## Core Testing Principles
 
 ## Tests Should Validate Contracts
 
@@ -72,7 +72,7 @@ Simulation allows developers to validate:
 
 ------------------------------------------------------------------------
 
-# Testing Layers
+## Testing Layers
 
 The testing model contains several layers.
 
@@ -151,7 +151,7 @@ These tests validate the entire system stack.
 
 ------------------------------------------------------------------------
 
-# Recommended Testing Tools
+## Recommended Testing Tools
 
 For v0.1, the recommended tools include:
 
@@ -162,7 +162,7 @@ These tools provide modern TypeScript-friendly testing capabilities.
 
 ------------------------------------------------------------------------
 
-# Generated Test Scaffolding
+## Generated Test Scaffolding
 
 The CLI should generate test scaffolding when new components are
 created.
@@ -180,7 +180,7 @@ This encourages consistent testing patterns.
 
 ------------------------------------------------------------------------
 
-# Test Fixtures
+## Test Fixtures
 
 Fixtures provide sample data for tests.
 
@@ -194,7 +194,7 @@ Fixtures help keep tests readable and reusable.
 
 ------------------------------------------------------------------------
 
-# Test Isolation
+## Test Isolation
 
 Tests should remain isolated from each other.
 
@@ -208,7 +208,7 @@ Isolation ensures deterministic results.
 
 ------------------------------------------------------------------------
 
-# Security Testing
+## Security Testing
 
 Security behavior should be verified through tests.
 
@@ -222,7 +222,7 @@ These tests help detect security regressions early.
 
 ------------------------------------------------------------------------
 
-# AI Testing
+## AI Testing
 
 AI integrations require special testing strategies.
 
@@ -237,7 +237,7 @@ Tests should avoid relying on external AI providers where possible.
 
 ------------------------------------------------------------------------
 
-# Governance Testing
+## Governance Testing
 
 Governance checks should also be testable.
 
@@ -251,7 +251,7 @@ This ensures governance rules remain reliable.
 
 ------------------------------------------------------------------------
 
-# Test Coverage
+## Test Coverage
 
 Projects may enforce minimum test coverage levels.
 
@@ -269,7 +269,7 @@ Coverage requirements should remain configurable.
 
 ------------------------------------------------------------------------
 
-# Continuous Integration
+## Continuous Integration
 
 Tests should run automatically in CI pipelines.
 
@@ -289,7 +289,7 @@ CI automation ensures regressions are detected early.
 
 ------------------------------------------------------------------------
 
-# Test Reporting
+## Test Reporting
 
 Testing frameworks should produce structured reports.
 
@@ -304,7 +304,7 @@ Structured reports support CI dashboards and development feedback.
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Testing Design
+## AI-Friendly Testing Design
 
 The testing model should remain understandable for AI coding agents.
 
@@ -319,7 +319,7 @@ This helps AI systems generate or update tests safely.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -334,7 +334,7 @@ than optional verification**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus testing model provides a layered testing strategy covering:
 

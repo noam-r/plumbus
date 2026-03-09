@@ -30,7 +30,7 @@ This document defines:
 
 ------------------------------------------------------------------------
 
-# Core Principles
+## Core Principles
 
 ## 1. Localized Reasoning
 
@@ -86,7 +86,7 @@ changes should occur**.
 
 ------------------------------------------------------------------------
 
-# Repository Structure
+## Repository Structure
 
 Plumbus projects follow a structured repository layout.
 
@@ -104,7 +104,7 @@ This structure separates:
 
 ------------------------------------------------------------------------
 
-# Feature-Local Design
+## Feature-Local Design
 
 Capabilities and flows live in **self-contained directories**.
 
@@ -124,7 +124,7 @@ changes.
 
 ------------------------------------------------------------------------
 
-# Generated Artifacts
+## Generated Artifacts
 
 Plumbus generates certain files automatically.
 
@@ -146,7 +146,7 @@ derived artifacts.
 
 ------------------------------------------------------------------------
 
-# AI Agent Briefs
+## AI Agent Briefs
 
 The framework can generate **AI-friendly briefs** describing specific
 features.
@@ -169,7 +169,7 @@ These briefs help AI agents quickly understand the scope of a feature.
 
 ------------------------------------------------------------------------
 
-# Project-Level AI Brief
+## Project-Level AI Brief
 
 A Plumbus project may include a project-level AI brief.
 
@@ -190,7 +190,7 @@ changes.
 
 ------------------------------------------------------------------------
 
-# Edit Zones
+## Edit Zones
 
 Plumbus repositories may define edit zones.
 
@@ -222,7 +222,7 @@ These zones prevent unsafe modifications.
 
 ------------------------------------------------------------------------
 
-# AI-Safe Conventions
+## AI-Safe Conventions
 
 To support safe AI modifications, Plumbus projects follow several
 conventions.
@@ -263,7 +263,7 @@ than relying on implicit framework magic.
 
 ------------------------------------------------------------------------
 
-# AI Modification Workflow
+## AI Modification Workflow
 
 Typical AI-assisted development workflow:
 
@@ -278,7 +278,7 @@ This workflow ensures modifications remain safe and auditable.
 
 ------------------------------------------------------------------------
 
-# AI-Assisted Verification
+## AI-Assisted Verification
 
 After an AI agent modifies code, the following checks should run:
 
@@ -295,7 +295,7 @@ This helps detect unintended side effects.
 
 ------------------------------------------------------------------------
 
-# Safety Considerations
+## Safety Considerations
 
 The AI integration model should reduce risks such as:
 
@@ -309,7 +309,7 @@ creates an environment where AI agents can operate safely.
 
 ------------------------------------------------------------------------
 
-# Future AI Integration
+## Future AI Integration
 
 Future versions of Plumbus may include:
 
@@ -323,7 +323,7 @@ document.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices for AI-assisted development:
 
@@ -337,7 +337,7 @@ autonomous decision-makers**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus AI Agent Integration model ensures that AI coding assistants
 can safely and effectively interact with Plumbus repositories.

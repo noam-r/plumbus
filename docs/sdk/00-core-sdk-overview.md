@@ -27,7 +27,7 @@ These primitives create a structured environment where:
 
 ------------------------------------------------------------------------
 
-# Core Philosophy
+## Core Philosophy
 
 The Plumbus SDK is designed around three ideas:
 
@@ -73,7 +73,7 @@ This is achieved through:
 
 ------------------------------------------------------------------------
 
-# Core SDK Primitives
+## Core SDK Primitives
 
 The Plumbus SDK exposes a small set of primitives used to define
 application behavior.
@@ -199,7 +199,7 @@ Prompts are used by the AI runtime.
 
 ------------------------------------------------------------------------
 
-# Runtime Context
+## Runtime Context
 
 Capability handlers receive a **runtime context (`ctx`)**.
 
@@ -304,7 +304,7 @@ ctx.audit.record("refundApproved", {
 
 ------------------------------------------------------------------------
 
-# Capability Lifecycle
+## Capability Lifecycle
 
 When a capability executes:
 
@@ -322,7 +322,7 @@ The framework manages this lifecycle automatically.
 
 ------------------------------------------------------------------------
 
-# SDK Design Goals
+## SDK Design Goals
 
 The SDK is designed to provide:
 
@@ -337,7 +337,7 @@ operational concerns.
 
 ------------------------------------------------------------------------
 
-# Example Capability with Full Context
+## Example Capability with Full Context
 
 ``` ts
 export const approveRefund = defineCapability({
@@ -386,7 +386,7 @@ This example demonstrates how a capability integrates with:
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus Core SDK defines the programming model used to build
 applications within the framework.

@@ -29,7 +29,7 @@ The runtime must support:
 
 ------------------------------------------------------------------------
 
-# Core Runtime Components
+## Core Runtime Components
 
 A Plumbus deployment consists of several runtime components.
 
@@ -48,7 +48,7 @@ These components work together to execute the application.
 
 ------------------------------------------------------------------------
 
-# API Server
+## API Server
 
 The API server handles incoming client requests.
 
@@ -74,7 +74,7 @@ Fastify provides:
 
 ------------------------------------------------------------------------
 
-# Capability Execution
+## Capability Execution
 
 When an API request arrives:
 
@@ -91,7 +91,7 @@ unless they explicitly schedule background work.
 
 ------------------------------------------------------------------------
 
-# Worker Processes
+## Worker Processes
 
 Worker processes execute asynchronous work.
 
@@ -107,7 +107,7 @@ Workers are stateless and pull jobs from the queue system.
 
 ------------------------------------------------------------------------
 
-# Queue System
+## Queue System
 
 Queues provide durable asynchronous job execution.
 
@@ -136,7 +136,7 @@ The specific implementation may vary by deployment environment.
 
 ------------------------------------------------------------------------
 
-# Flow Workers
+## Flow Workers
 
 Flow workers execute workflow steps defined in the Flow Engine.
 
@@ -152,7 +152,7 @@ Flow workers must remain stateless to enable horizontal scaling.
 
 ------------------------------------------------------------------------
 
-# Event Dispatcher
+## Event Dispatcher
 
 The event dispatcher processes events stored in the outbox.
 
@@ -166,7 +166,7 @@ This mechanism ensures reliable event delivery.
 
 ------------------------------------------------------------------------
 
-# Scheduler
+## Scheduler
 
 The scheduler triggers time-based tasks.
 
@@ -186,7 +186,7 @@ Schedulers may run as dedicated services or as part of worker processes.
 
 ------------------------------------------------------------------------
 
-# Database
+## Database
 
 The primary database stores:
 
@@ -209,7 +209,7 @@ PostgreSQL provides:
 
 ------------------------------------------------------------------------
 
-# Vector Storage
+## Vector Storage
 
 Vector storage supports the RAG subsystem.
 
@@ -221,7 +221,7 @@ This allows vector search to remain integrated with the main database.
 
 ------------------------------------------------------------------------
 
-# Horizontal Scaling
+## Horizontal Scaling
 
 The runtime architecture must support horizontal scaling.
 
@@ -235,7 +235,7 @@ Stateless components (API servers and workers) can scale independently.
 
 ------------------------------------------------------------------------
 
-# Fault Tolerance
+## Fault Tolerance
 
 The system must tolerate failures gracefully.
 
@@ -254,7 +254,7 @@ Recovery mechanisms include:
 
 ------------------------------------------------------------------------
 
-# Observability
+## Observability
 
 Operational visibility is critical for production systems.
 
@@ -275,7 +275,7 @@ Monitoring systems may include:
 
 ------------------------------------------------------------------------
 
-# Logging
+## Logging
 
 Structured logs should include:
 
@@ -289,7 +289,7 @@ Logs must avoid exposing sensitive classified data.
 
 ------------------------------------------------------------------------
 
-# Deployment Model
+## Deployment Model
 
 Plumbus applications may be deployed using:
 
@@ -307,7 +307,7 @@ Typical deployment components:
 
 ------------------------------------------------------------------------
 
-# Multi-Environment Support
+## Multi-Environment Support
 
 The runtime must support multiple environments:
 
@@ -324,7 +324,7 @@ Environment configuration may include:
 
 ------------------------------------------------------------------------
 
-# Security Considerations
+## Security Considerations
 
 Runtime infrastructure must enforce:
 
@@ -337,7 +337,7 @@ Secrets should never be hardcoded.
 
 ------------------------------------------------------------------------
 
-# AI Runtime Integration
+## AI Runtime Integration
 
 AI requests may be executed:
 
@@ -349,7 +349,7 @@ latency becomes excessive.
 
 ------------------------------------------------------------------------
 
-# Governance Integration
+## Governance Integration
 
 Runtime metrics may feed governance analysis.
 
@@ -363,7 +363,7 @@ These signals may produce governance warnings.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended runtime practices:
 
@@ -377,7 +377,7 @@ Operational reliability depends heavily on runtime observability.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus runtime architecture provides the infrastructure necessary
 to execute the framework's logical components reliably.

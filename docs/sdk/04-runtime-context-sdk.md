@@ -28,7 +28,7 @@ By routing all system interactions through `ctx`, the framework ensures:
 
 ------------------------------------------------------------------------
 
-# Conceptual Model
+## Conceptual Model
 
 When a capability or flow executes, it receives a **runtime context
 object**.
@@ -48,7 +48,7 @@ operations when a context API is available.
 
 ------------------------------------------------------------------------
 
-# Context Structure
+## Context Structure
 
 The runtime context may expose the following properties:
 
@@ -67,7 +67,7 @@ Each section provides controlled access to specific services.
 
 ------------------------------------------------------------------------
 
-# ctx.auth
+## ctx.auth
 
 Provides authentication and identity information.
 
@@ -93,7 +93,7 @@ rely on the framework for authorization enforcement.
 
 ------------------------------------------------------------------------
 
-# ctx.data
+## ctx.data
 
 Provides access to entity repositories.
 
@@ -116,7 +116,7 @@ Direct database queries should be avoided unless explicitly allowed.
 
 ------------------------------------------------------------------------
 
-# ctx.events
+## ctx.events
 
 Used to emit domain events.
 
@@ -139,7 +139,7 @@ Capabilities should not publish directly to message brokers.
 
 ------------------------------------------------------------------------
 
-# ctx.flows
+## ctx.flows
 
 Used to start or interact with workflows.
 
@@ -162,7 +162,7 @@ in capabilities.
 
 ------------------------------------------------------------------------
 
-# ctx.ai
+## ctx.ai
 
 Provides access to the managed AI runtime.
 
@@ -195,7 +195,7 @@ operations.
 
 ------------------------------------------------------------------------
 
-# ctx.audit
+## ctx.audit
 
 Records audit events.
 
@@ -223,7 +223,7 @@ Audit logs support:
 
 ------------------------------------------------------------------------
 
-# ctx.errors
+## ctx.errors
 
 Provides standardized error constructors.
 
@@ -246,7 +246,7 @@ Using standardized errors ensures consistent API responses.
 
 ------------------------------------------------------------------------
 
-# ctx.logger
+## ctx.logger
 
 Provides structured logging.
 
@@ -264,7 +264,7 @@ Structured logging improves observability and debugging.
 
 ------------------------------------------------------------------------
 
-# ctx.time
+## ctx.time
 
 Provides time utilities.
 
@@ -282,7 +282,7 @@ Using a framework time provider improves:
 
 ------------------------------------------------------------------------
 
-# ctx.config
+## ctx.config
 
 Provides access to application configuration.
 
@@ -298,7 +298,7 @@ Secrets should be managed by the deployment environment.
 
 ------------------------------------------------------------------------
 
-# Context Lifecycle
+## Context Lifecycle
 
 The runtime context is created at the start of execution and destroyed
 after completion.
@@ -317,7 +317,7 @@ The context should not persist outside the execution boundary.
 
 ------------------------------------------------------------------------
 
-# Flow Context
+## Flow Context
 
 Flow step handlers receive a similar context.
 
@@ -331,7 +331,7 @@ These fields allow flows to track execution state.
 
 ------------------------------------------------------------------------
 
-# Testing Context
+## Testing Context
 
 Testing helpers should create a mock runtime context.
 
@@ -350,7 +350,7 @@ Mock contexts allow:
 
 ------------------------------------------------------------------------
 
-# Governance Visibility
+## Governance Visibility
 
 Operations executed through the runtime context are visible to
 governance systems.
@@ -366,7 +366,7 @@ behavior.
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Context Design
+## AI-Friendly Context Design
 
 The runtime context should remain predictable and well-documented.
 
@@ -381,7 +381,7 @@ system.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -396,7 +396,7 @@ services**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Runtime Context SDK defines the structured interface through which
 application code interacts with Plumbus services.

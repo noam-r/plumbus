@@ -31,7 +31,7 @@ and safe**.
 
 ------------------------------------------------------------------------
 
-# Conceptual Model
+## Conceptual Model
 
 AI in Plumbus is **capability-driven**.
 
@@ -56,7 +56,7 @@ This design ensures:
 
 ------------------------------------------------------------------------
 
-# definePrompt()
+## definePrompt()
 
 Prompt templates are declared using:
 
@@ -85,7 +85,7 @@ runtime**.
 
 ------------------------------------------------------------------------
 
-# Prompt Contract Fields
+## Prompt Contract Fields
 
 ## Identity
 
@@ -161,7 +161,7 @@ The runtime may override these values according to system policies.
 
 ------------------------------------------------------------------------
 
-# AI Runtime Operations
+## AI Runtime Operations
 
 The runtime context exposes AI operations through `ctx.ai`.
 
@@ -176,7 +176,7 @@ Each operation provides structured interaction with AI models.
 
 ------------------------------------------------------------------------
 
-# generate()
+## generate()
 
 Used for general text generation.
 
@@ -199,7 +199,7 @@ The runtime:
 
 ------------------------------------------------------------------------
 
-# extract()
+## extract()
 
 Extracts structured data from unstructured input.
 
@@ -220,7 +220,7 @@ This operation is useful for:
 
 ------------------------------------------------------------------------
 
-# classify()
+## classify()
 
 Classifies text into categories.
 
@@ -238,7 +238,7 @@ responses.
 
 ------------------------------------------------------------------------
 
-# retrieve()
+## retrieve()
 
 Retrieves contextual knowledge from the RAG system.
 
@@ -258,7 +258,7 @@ The runtime:
 
 ------------------------------------------------------------------------
 
-# Structured Output Validation
+## Structured Output Validation
 
 AI responses should be validated against declared output schemas.
 
@@ -280,7 +280,7 @@ This prevents malformed AI outputs from corrupting system state.
 
 ------------------------------------------------------------------------
 
-# AI Usage Metadata
+## AI Usage Metadata
 
 Every AI request should record usage metadata.
 
@@ -301,7 +301,7 @@ This metadata supports:
 
 ------------------------------------------------------------------------
 
-# Budget Enforcement
+## Budget Enforcement
 
 Applications may define AI budgets.
 
@@ -315,7 +315,7 @@ The runtime should enforce these limits where possible.
 
 ------------------------------------------------------------------------
 
-# Security Controls
+## Security Controls
 
 The AI runtime should provide safeguards such as:
 
@@ -329,7 +329,7 @@ models unless explicitly allowed.
 
 ------------------------------------------------------------------------
 
-# RAG Integration
+## RAG Integration
 
 The AI SDK integrates with the Retrieval-Augmented Generation system.
 
@@ -345,7 +345,7 @@ This allows models to incorporate system knowledge safely.
 
 ------------------------------------------------------------------------
 
-# Governance Signals
+## Governance Signals
 
 AI usage should generate governance signals.
 
@@ -359,7 +359,7 @@ These signals help teams detect risky patterns.
 
 ------------------------------------------------------------------------
 
-# Audit Integration
+## Audit Integration
 
 AI operations should generate audit events.
 
@@ -375,7 +375,7 @@ Sensitive prompt content may be masked.
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Design
+## AI-Friendly Design
 
 Prompt templates should remain easy for AI agents to understand.
 
@@ -390,7 +390,7 @@ This helps maintain predictable AI behavior.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -405,7 +405,7 @@ application behavior.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The AI SDK defines how Plumbus applications integrate with AI systems.
 

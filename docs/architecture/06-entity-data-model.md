@@ -24,7 +24,7 @@ operate.
 
 ------------------------------------------------------------------------
 
-# Core Principles
+## Core Principles
 
 The entity system follows several key principles.
 
@@ -51,7 +51,7 @@ order to produce governance and compliance reports.
 
 ------------------------------------------------------------------------
 
-# Entity Definition
+## Entity Definition
 
 Entities are defined declaratively.
 
@@ -81,7 +81,7 @@ Entity definitions should include:
 
 ------------------------------------------------------------------------
 
-# Field Types
+## Field Types
 
 The entity system should support a small, well-defined set of field
 types.
@@ -102,7 +102,7 @@ type system should remain simple and predictable.
 
 ------------------------------------------------------------------------
 
-# Field Classification
+## Field Classification
 
 Fields may include privacy classification metadata.
 
@@ -125,7 +125,7 @@ This metadata enables:
 
 ------------------------------------------------------------------------
 
-# Entity Relationships
+## Entity Relationships
 
 Entities may define relationships with other entities.
 
@@ -149,7 +149,7 @@ reason about dependency graphs.
 
 ------------------------------------------------------------------------
 
-# Database Infrastructure
+## Database Infrastructure
 
 The recommended infrastructure for v0.1 is:
 
@@ -166,7 +166,7 @@ PostgreSQL provides:
 
 ------------------------------------------------------------------------
 
-# Repository Layer
+## Repository Layer
 
 Application code interacts with entities through repository services
 exposed via the execution context.
@@ -189,7 +189,7 @@ are available.
 
 ------------------------------------------------------------------------
 
-# Data Access Context
+## Data Access Context
 
 Capabilities access entities through:
 
@@ -207,7 +207,7 @@ The data context may also expose transactional helpers where needed.
 
 ------------------------------------------------------------------------
 
-# Schema Generation
+## Schema Generation
 
 Entity definitions should generate database schema automatically.
 
@@ -227,7 +227,7 @@ Generated schema definitions allow:
 
 ------------------------------------------------------------------------
 
-# Migrations
+## Migrations
 
 Database migrations should be generated from entity changes.
 
@@ -245,7 +245,7 @@ Example CLI:
 
 ------------------------------------------------------------------------
 
-# Data Retention Hints
+## Data Retention Hints
 
 Entities may include retention metadata.
 
@@ -261,7 +261,7 @@ Retention hints support:
 
 ------------------------------------------------------------------------
 
-# Multi-Tenant Data Isolation
+## Multi-Tenant Data Isolation
 
 If the application uses multi-tenancy, entities should include tenant
 scoping.
@@ -276,7 +276,7 @@ The framework may enforce this automatically.
 
 ------------------------------------------------------------------------
 
-# Audit Integration
+## Audit Integration
 
 The data layer integrates with the audit subsystem.
 
@@ -293,7 +293,7 @@ classification rules.
 
 ------------------------------------------------------------------------
 
-# Policy and Compliance Integration
+## Policy and Compliance Integration
 
 Entity definitions provide key input for governance and compliance
 analysis.
@@ -309,7 +309,7 @@ These results appear in policy compatibility reports.
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Design
+## AI-Friendly Design
 
 The entity model must remain easy for coding agents to understand.
 
@@ -324,7 +324,7 @@ Avoid complex implicit schema generation logic.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -339,7 +339,7 @@ storage structures.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The entity and data model subsystem provides a structured,
 privacy-aware, and governance-compatible approach to persistent data.

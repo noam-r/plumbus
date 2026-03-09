@@ -26,7 +26,7 @@ project.
 
 ------------------------------------------------------------------------
 
-# Design Principles
+## Design Principles
 
 ## 1. Feature Locality
 
@@ -70,7 +70,7 @@ Rules:
 
 ------------------------------------------------------------------------
 
-# Top-Level Repository Layout
+## Top-Level Repository Layout
 
 A standard Plumbus project should look like:
 
@@ -96,7 +96,7 @@ Each section has a specific purpose.
 
 ------------------------------------------------------------------------
 
-# app/
+## app/
 
 The `app/` directory contains **all application logic**.
 
@@ -113,7 +113,7 @@ Application logic should never be placed outside this directory.
 
 ------------------------------------------------------------------------
 
-# app/capabilities/
+## app/capabilities/
 
 Contains all capability definitions.
 
@@ -138,7 +138,7 @@ Rules:
 
 ------------------------------------------------------------------------
 
-# app/flows/
+## app/flows/
 
 Contains workflow definitions.
 
@@ -157,7 +157,7 @@ Flows orchestrate capabilities into larger business processes.
 
 ------------------------------------------------------------------------
 
-# app/entities/
+## app/entities/
 
 Contains entity definitions used for database schema generation.
 
@@ -174,7 +174,7 @@ Rules:
 
 ------------------------------------------------------------------------
 
-# app/events/
+## app/events/
 
 Contains event contracts.
 
@@ -187,7 +187,7 @@ Events represent domain facts emitted by capabilities or flows.
 
 ------------------------------------------------------------------------
 
-# app/prompts/
+## app/prompts/
 
 Contains AI prompt templates.
 
@@ -200,7 +200,7 @@ Prompt contracts define input and output schemas for AI operations.
 
 ------------------------------------------------------------------------
 
-# app/adapters/
+## app/adapters/
 
 Contains integrations with external systems.
 
@@ -219,7 +219,7 @@ Adapters isolate infrastructure concerns from core application logic.
 
 ------------------------------------------------------------------------
 
-# ui/
+## ui/
 
 Contains the frontend application.
 
@@ -237,7 +237,7 @@ Business logic should remain in backend capabilities.
 
 ------------------------------------------------------------------------
 
-# tests/
+## tests/
 
 Contains global integration tests and end-to-end tests.
 
@@ -252,7 +252,7 @@ components.
 
 ------------------------------------------------------------------------
 
-# .plumbus/
+## .plumbus/
 
 Contains framework-generated artifacts.
 
@@ -302,7 +302,7 @@ Briefs help AI agents understand project structure quickly.
 
 ------------------------------------------------------------------------
 
-# config/
+## config/
 
 Contains configuration files.
 
@@ -316,7 +316,7 @@ Configuration should remain separate from application logic.
 
 ------------------------------------------------------------------------
 
-# scripts/
+## scripts/
 
 Contains developer utilities and operational scripts.
 
@@ -330,7 +330,7 @@ Scripts should not contain core application logic.
 
 ------------------------------------------------------------------------
 
-# Generated Files Policy
+## Generated Files Policy
 
 Files inside `.plumbus/generated/` must never be modified manually.
 
@@ -342,7 +342,7 @@ This ensures consistency between contracts and generated artifacts.
 
 ------------------------------------------------------------------------
 
-# Naming Conventions
+## Naming Conventions
 
 Consistent naming improves developer productivity and AI comprehension.
 
@@ -361,7 +361,7 @@ Examples:
 
 ------------------------------------------------------------------------
 
-# Dependency Direction
+## Dependency Direction
 
 Dependencies should flow in the following direction:
 
@@ -378,7 +378,7 @@ flows.
 
 ------------------------------------------------------------------------
 
-# AI Editing Zones
+## AI Editing Zones
 
 The repository may define editing zones for AI agents.
 
@@ -399,7 +399,7 @@ This reduces risk when AI tools modify the codebase.
 
 ------------------------------------------------------------------------
 
-# Example Repository
+## Example Repository
 
 Example simplified repository:
 
@@ -431,7 +431,7 @@ Example simplified repository:
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus repository layout ensures that projects remain:
 

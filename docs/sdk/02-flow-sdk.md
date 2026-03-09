@@ -30,7 +30,7 @@ The Flow SDK defines:
 
 ------------------------------------------------------------------------
 
-# Conceptual Model
+## Conceptual Model
 
 A **flow** represents a stateful workflow.
 
@@ -54,7 +54,7 @@ Unlike capabilities, flows:
 
 ------------------------------------------------------------------------
 
-# Flow File Structure
+## Flow File Structure
 
 Each flow lives in its own directory.
 
@@ -79,7 +79,7 @@ This structure keeps orchestration logic isolated and understandable.
 
 ------------------------------------------------------------------------
 
-# defineFlow()
+## defineFlow()
 
 Flows are defined using:
 
@@ -117,7 +117,7 @@ The flow contract describes:
 
 ------------------------------------------------------------------------
 
-# Flow Contract Fields
+## Flow Contract Fields
 
 A flow definition may include:
 
@@ -186,7 +186,7 @@ Steps should reference capabilities or step handlers.
 
 ------------------------------------------------------------------------
 
-# Step Types
+## Step Types
 
 Flows support several step types.
 
@@ -267,7 +267,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-# Retry Policies
+## Retry Policies
 
 Flows should support retry policies for resilient execution.
 
@@ -284,7 +284,7 @@ Retries may apply globally or per-step.
 
 ------------------------------------------------------------------------
 
-# Event Triggers
+## Event Triggers
 
 Flows may start automatically in response to events.
 
@@ -300,7 +300,7 @@ The event payload becomes the flow input.
 
 ------------------------------------------------------------------------
 
-# Scheduling
+## Scheduling
 
 Flows may run on schedules.
 
@@ -316,7 +316,7 @@ This allows recurring processes.
 
 ------------------------------------------------------------------------
 
-# Flow Context
+## Flow Context
 
 During execution, steps receive a **flow context (`ctx`)**.
 
@@ -339,7 +339,7 @@ ctx.audit
 
 ------------------------------------------------------------------------
 
-# Flow State Management
+## Flow State Management
 
 Flow state should persist after each step.
 
@@ -354,7 +354,7 @@ State persistence ensures recovery after failures.
 
 ------------------------------------------------------------------------
 
-# Interaction with Capabilities
+## Interaction with Capabilities
 
 Flows should use capabilities for domain operations.
 
@@ -375,7 +375,7 @@ capabilities.
 
 ------------------------------------------------------------------------
 
-# Event Interaction
+## Event Interaction
 
 Flows may emit events.
 
@@ -391,7 +391,7 @@ This allows asynchronous processes to coordinate across services.
 
 ------------------------------------------------------------------------
 
-# Error Handling
+## Error Handling
 
 When a step fails:
 
@@ -404,7 +404,7 @@ Optional failure handlers may be defined.
 
 ------------------------------------------------------------------------
 
-# Flow Manifest
+## Flow Manifest
 
 The framework should generate a flow manifest containing:
 
@@ -424,7 +424,7 @@ Manifests enable:
 
 ------------------------------------------------------------------------
 
-# Testing Flows
+## Testing Flows
 
 Flows should support simulation testing.
 
@@ -449,7 +449,7 @@ tests.
 
 ------------------------------------------------------------------------
 
-# Governance Visibility
+## Governance Visibility
 
 Flow definitions should expose metadata used by governance analysis.
 
@@ -468,7 +468,7 @@ Governance rules may warn about:
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Flow Design
+## AI-Friendly Flow Design
 
 Flows must remain understandable for coding agents.
 
@@ -484,7 +484,7 @@ single flow definition.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -499,7 +499,7 @@ execution pipelines**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Flow SDK defines how Plumbus orchestrates multi-step processes.
 

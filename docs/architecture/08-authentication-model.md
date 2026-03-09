@@ -31,9 +31,9 @@ applications can integrate with common identity systems.
 
 ------------------------------------------------------------------------
 
-# Core Authentication Principles
+## Core Authentication Principles
 
-## 1. Authentication and Authorization Are Separate
+### 1. Authentication and Authorization Are Separate
 
 Authentication determines identity.
 
@@ -45,7 +45,7 @@ subsystem.
 
 ------------------------------------------------------------------------
 
-## 2. Identity Context Must Be Explicit
+### 2. Identity Context Must Be Explicit
 
 Authenticated requests must populate a structured identity object
 available throughout execution.
@@ -67,7 +67,7 @@ This context is immutable during request execution.
 
 ------------------------------------------------------------------------
 
-## 3. Provider-Agnostic Design
+### 3. Provider-Agnostic Design
 
 Plumbus should not hard-code support for a single authentication
 provider.
@@ -83,7 +83,7 @@ Adapters allow integration with:
 
 ------------------------------------------------------------------------
 
-# Identity Model
+## Identity Model
 
 The authentication system recognizes different types of actors.
 
@@ -127,7 +127,7 @@ System actors should still produce identity metadata for audit trails.
 
 ------------------------------------------------------------------------
 
-# Authentication Flow
+## Authentication Flow
 
 A typical authentication lifecycle:
 
@@ -140,7 +140,7 @@ A typical authentication lifecycle:
 
 ------------------------------------------------------------------------
 
-# Authentication Providers
+## Authentication Providers
 
 Plumbus should support common authentication providers via adapters.
 
@@ -157,7 +157,7 @@ identity context.
 
 ------------------------------------------------------------------------
 
-# Token-Based Authentication
+## Token-Based Authentication
 
 Most API clients authenticate using tokens.
 
@@ -174,7 +174,7 @@ Capabilities should never parse or validate tokens directly.
 
 ------------------------------------------------------------------------
 
-# Session-Based Authentication
+## Session-Based Authentication
 
 Browser-based applications may use session cookies.
 
@@ -189,7 +189,7 @@ level.
 
 ------------------------------------------------------------------------
 
-# Multi-Tenant Authentication
+## Multi-Tenant Authentication
 
 Multi-tenant applications require tenant awareness.
 
@@ -206,7 +206,7 @@ Capabilities and repositories can then enforce tenant isolation.
 
 ------------------------------------------------------------------------
 
-# Identity Propagation
+## Identity Propagation
 
 Identity must propagate across system boundaries.
 
@@ -228,7 +228,7 @@ Example metadata propagated:
 
 ------------------------------------------------------------------------
 
-# Service-to-Service Authentication
+## Service-to-Service Authentication
 
 Internal services may authenticate using service credentials.
 
@@ -242,7 +242,7 @@ Service identities should be distinguishable from user identities.
 
 ------------------------------------------------------------------------
 
-# Audit Integration
+## Audit Integration
 
 Authentication events should produce audit records.
 
@@ -264,7 +264,7 @@ This supports security monitoring and compliance reporting.
 
 ------------------------------------------------------------------------
 
-# Security Integration
+## Security Integration
 
 The authentication subsystem provides the identity context required by
 the **Security Model**.
@@ -279,7 +279,7 @@ These values originate from the authentication process.
 
 ------------------------------------------------------------------------
 
-# Governance and Compliance
+## Governance and Compliance
 
 Authentication configuration may affect compliance posture.
 
@@ -294,7 +294,7 @@ compatibility reports.
 
 ------------------------------------------------------------------------
 
-# AI-Friendly Authentication Design
+## AI-Friendly Authentication Design
 
 The authentication subsystem must remain understandable for coding
 agents.
@@ -311,7 +311,7 @@ by automated code modifications.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -326,7 +326,7 @@ integrated**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus authentication model establishes identity context for all
 system operations.

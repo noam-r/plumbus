@@ -32,7 +32,7 @@ The governance system enables:
 
 ------------------------------------------------------------------------
 
-# Governance Philosophy
+## Governance Philosophy
 
 ## Guardrails, Not Gates
 
@@ -63,7 +63,7 @@ documented**.
 
 ------------------------------------------------------------------------
 
-# Governance Scope
+## Governance Scope
 
 The advisory system may detect issues in several areas.
 
@@ -95,7 +95,7 @@ Examples include:
 
 ------------------------------------------------------------------------
 
-# Governance Detection
+## Governance Detection
 
 Governance checks may run during:
 
@@ -114,7 +114,7 @@ This command may report warnings such as:
 
 ------------------------------------------------------------------------
 
-# Risk Severity Levels
+## Risk Severity Levels
 
 Governance warnings may include severity levels.
 
@@ -130,7 +130,7 @@ Severity levels help teams prioritize remediation.
 
 ------------------------------------------------------------------------
 
-# Overrides and Acknowledgements
+## Overrides and Acknowledgements
 
 Developers may override governance warnings.
 
@@ -149,7 +149,7 @@ Example conceptual override record:
 
 ------------------------------------------------------------------------
 
-# Governance Records
+## Governance Records
 
 Overrides should be recorded in governance metadata.
 
@@ -163,7 +163,7 @@ These records appear in policy compatibility reports.
 
 ------------------------------------------------------------------------
 
-# CLI Interaction
+## CLI Interaction
 
 Developers interact with governance tools through the CLI.
 
@@ -177,7 +177,7 @@ The CLI should provide clear explanations of detected issues.
 
 ------------------------------------------------------------------------
 
-# Integration with Policy Compatibility
+## Integration with Policy Compatibility
 
 Advisory governance feeds into the **Policy Compatibility Assessment**
 system.
@@ -192,7 +192,7 @@ This is especially useful during security audits.
 
 ------------------------------------------------------------------------
 
-# Governance Metadata
+## Governance Metadata
 
 The system may maintain governance metadata including:
 
@@ -205,7 +205,7 @@ This metadata enables governance dashboards and reports.
 
 ------------------------------------------------------------------------
 
-# CI/CD Integration
+## CI/CD Integration
 
 Governance checks may be integrated into CI pipelines.
 
@@ -219,7 +219,7 @@ This ensures governance visibility during development.
 
 ------------------------------------------------------------------------
 
-# Explainability
+## Explainability
 
 Governance warnings should include explanations describing:
 
@@ -232,7 +232,7 @@ Clear explanations help developers make informed decisions.
 
 ------------------------------------------------------------------------
 
-# AI‑Friendly Governance
+## AI‑Friendly Governance
 
 The advisory system must remain understandable for coding agents.
 
@@ -246,7 +246,7 @@ This allows AI tools to automatically propose fixes.
 
 ------------------------------------------------------------------------
 
-# Best Practices
+## Best Practices
 
 Recommended practices:
 
@@ -260,7 +260,7 @@ system rather than a compliance afterthought**.
 
 ------------------------------------------------------------------------
 
-# Summary
+## Summary
 
 The Plumbus Advisory Governance subsystem provides a flexible yet
 transparent model for managing architectural and compliance risks.
